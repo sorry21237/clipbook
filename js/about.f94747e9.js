@@ -1,2 +1,0 @@
-"use strict";(self["webpackChunkclipbook"]=self["webpackChunkclipbook"]||[]).push([[443],{381:function(n,u,t){t.r(u),t.d(u,{default:function(){return b}});var a=t(252);const c={class:"about"},e=(0,a._)("h1",null,"This is an about page",-1),o=[e];function r(n,u){return(0,a.wg)(),(0,a.iD)("div",c,o)}var s=t(744);const i={},l=(0,s.Z)(i,[["render",r]]);var b=l}}]);
-//# sourceMappingURL=about.f94747e9.js.map
