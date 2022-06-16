@@ -28,7 +28,7 @@ jobs:
 
       # Setup Node.js node
       - name: Set up Node.js
-        uses: actions/setup-mode@main
+        uses: actions/setup-mode@v3
         with:
             node-version: 16.x
       
@@ -48,7 +48,7 @@ jobs:
 
       # Deploy with gh-pages
       - name: Deploy to gh-pages
-        uses: peaceiris/actions-gh-page@v3
+        uses: peaceiris/actions-gh-pages@v3
         with:
           github_token: ${{ secrets.GITHUB_TOKEN }}
           pulish_dir: ./dist
